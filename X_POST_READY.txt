@@ -1,0 +1,15 @@
+Built 5 tools for indie hackers who want real feedback, real data, and real results.
+
+🚀 Brutal Feedback Exchange - Get honest critiques, no BS
+💡 Ship It or Kill It - Validate ideas before coding
+📊 Public Building Tracker - Track progress, maintain streaks
+💰 Revenue Transparency Hub - Real numbers from real products
+📚 Copy the Playbook - Learn how successful products were built
+
+Open source. Free forever. Built for the community.
+
+@levelsio what do you think? 👀
+
+🔗 https://github.com/yksanjo/indie-hacker-toolkit
+
+

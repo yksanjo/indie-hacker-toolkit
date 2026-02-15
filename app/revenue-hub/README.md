@@ -76,3 +76,4 @@ Navigate to `/revenue-hub` to access the tool.
 
 This is part of the Indie Hacker Toolkit. See main README for contribution guidelines.
 
+

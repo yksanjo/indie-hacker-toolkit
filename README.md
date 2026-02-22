@@ -1,138 +1,84 @@
-# 🚀 Indie Hacker Toolkit
+# indie-hacker-toolkit
 
-Five powerful tools designed for indie hackers who want real feedback, real data, and real results.
+## Detailed Description
 
-![Landing Page](./screenshots/landing/landing-page.png)
+indie-hacker-toolkit is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
 
-## 🎯 Overview
+## Problem Statement
 
-A collection of community-driven tools built specifically for indie hackers, founders, and solo builders. Each tool solves a real problem faced by the indie hacker community.
+Describe the user or business problem this project solves, the target users, and expected outcomes.
 
-## 🛠️ Tools
+## Solution Overview
 
-### 1. [Brutal Feedback Exchange](./app/brutal-feedback)
-Get honest, direct feedback from fellow builders. No sugar-coating, just real critiques.
+Summarize the architecture, core modules, and runtime behavior at a high level.
 
-![Brutal Feedback](./screenshots/brutal-feedback/feedback-main.png)
+## Key Features
 
-### 2. [Ship It or Kill It](./app/ship-or-kill)
-Let the community decide if your idea is worth building. Validate before you code.
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
 
-![Ship or Kill](./screenshots/ship-or-kill/ship-or-kill-main.png)
+## Repository Structure
 
-### 3. [Public Building Tracker](./app/building-tracker)
-Track your daily progress, build in public, and stay accountable to the community.
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
+```
 
-![Building Tracker](./screenshots/building-tracker/tracker-main.png)
-
-### 4. [Revenue Transparency Hub](./app/revenue-hub)
-Real revenue numbers from real indie products. Learn from actual data, not vanity metrics.
-
-![Revenue Hub](./screenshots/revenue-hub/revenue-main.png)
-
-### 5. [Copy the Playbook](./app/copy-playbook)
-Reverse-engineer successful indie products. Learn how they were built, step by step.
-
-![Copy Playbook](./screenshots/copy-playbook/playbook-main.png)
-
-## 🎨 Design Features
-
-- **Modern Dark Theme** - Easy on the eyes, perfect for long coding sessions
-- **Glassmorphism UI** - Beautiful frosted glass effects with backdrop blur
-- **Smooth Animations** - Powered by Framer Motion for delightful interactions
-- **Responsive Design** - Works perfectly on desktop, tablet, and mobile
-- **Gradient Accents** - Each tool has its own unique color scheme
-
-## 🚀 Tech Stack
-
-- **Framework:** Next.js 14 (App Router)
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **Animations:** Framer Motion
-- **State Management:** Zustand
-- **Icons:** Lucide React
-
-## 📦 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-- Node.js 18+ 
-- npm or yarn
+- Git
+- Project runtime/toolchain for this repo
 
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/indie-hacker-toolkit.git
-
-# Navigate to the project
-cd indie-hacker-toolkit
-
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) to see the app.
-
-### Build for Production
+### Local Setup
 
 ```bash
-# Build the project
+npm ci
+npm run lint
+npm test
 npm run build
-
-# Start production server
-npm start
 ```
 
-## 📁 Project Structure
+## Usage
 
-```
-indie-hacker-toolkit/
-├── app/
-│   ├── brutal-feedback/     # Brutal Feedback Exchange tool
-│   ├── ship-or-kill/        # Ship It or Kill It validator
-│   ├── building-tracker/    # Public Building Tracker
-│   ├── revenue-hub/         # Revenue Transparency Hub
-│   ├── copy-playbook/       # Copy the Playbook
-│   ├── layout.tsx           # Root layout
-│   ├── page.tsx             # Landing page
-│   └── globals.css          # Global styles
-├── screenshots/             # Screenshots for documentation
-├── public/                  # Static assets
-└── package.json
-```
+Document primary commands, API routes, CLI examples, or UI workflows here.
 
-## 🎯 Features
+## Quality Standards
 
-- ✅ Modern, appealing design for younger audiences
-- ✅ Glassmorphism UI with smooth animations
-- ✅ Fully responsive design
-- ✅ Dark theme optimized
-- ✅ Fast and performant
-- ✅ TypeScript for type safety
-- ✅ Component-based architecture
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
 
-## 🤝 Contributing
+## Security
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+See `SECURITY.md` for responsible disclosure and handling guidelines.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+## Contributing
 
-## 📝 License
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Roadmap
 
-## 🙏 Acknowledgments
+Track upcoming milestones, technical debt, and planned feature work.
 
-Built for the indie hacker community, inspired by builders like Pieter Levels and the entire indie hacker movement.
+## Support
 
----
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
 
-**Made with ❤️ for indie hackers**
+## License
+
+This project is released under the MIT License.

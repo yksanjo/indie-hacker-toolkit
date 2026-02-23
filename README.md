@@ -1,5 +1,12 @@
 # indie-hacker-toolkit
 
+Production-grade project scaffold focused on reliability, maintainability, and fast onboarding.
+
+[![CI](https://img.shields.io/github/actions/workflow/status/yksanjo/indie-hacker-toolkit/ci.yml?branch=main&label=ci)](https://github.com/yksanjo/indie-hacker-toolkit/actions)
+![License](https://img.shields.io/github/license/yksanjo/indie-hacker-toolkit)
+![Last Commit](https://img.shields.io/github/last-commit/yksanjo/indie-hacker-toolkit)
+![Repo Size](https://img.shields.io/github/repo-size/yksanjo/indie-hacker-toolkit)
+
 ## Detailed Description
 
 indie-hacker-toolkit is maintained as an industry-grade software project with production-ready engineering practices.  
